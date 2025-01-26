@@ -831,7 +831,8 @@ if [ -z "$SKIP_IPERF" ]; then
 	#   4. location and advertised speed link of the iperf server
 	#   5. network modes supported by the iperf server (IPv4 = IPv4-only, IPv4|IPv6 = IPv4 + IPv6, etc.)
 	IPERF_LOCS=( \
-		"core01.lab.mydc.dev" "5201-5201" "Virtual Machine" "LAN (10G)" "IPv4"
+		"core01.lab.mydc.dev" "5201-5201" "RHEL 9 VM" "LAN (10G)" "IPv4"
+		"proxmox.lab.mydc.dev" "5201-5201" "Proxmox PowerEdge R630" "LAN (10G)" "IPv4"
 		#"iperf-ams-nl.eranium.net" "5201-5210" "Eranium" "Amsterdam, NL (100G)" "IPv4|IPv6" \
 		#"speedtest.extra.telia.fi" "5201-5208" "Telia" "Helsinki, FI (10G)" "IPv4"
 		# AFR placeholder
